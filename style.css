@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'HN';
+  src: url('./assets/fonts/Moon Light.otf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: HN;
+  font-weight: bold;
+  color: #263238;
+}
+
+a {
+  text-decoration: none;
+  color: #FF5252;
+  cursor: pointer;
+}
+
+a:hover {
+  color: red;
+}
+
+.column {
+  float: left;
+  width: 27%;
+}
+.intro-prompt {
+  margin-bottom: 8%;
+}
+.intro-labels {
+  font-size: 30px;
+  text-align: left;
+  line-height: 40px;
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 43%;
+}
+
+.intro-photos {
+  font-size: 33px;
+  text-align: left;
+  line-height: 45px;
+  margin: 0 auto;
+  margin-top: 3.5em;
+}
+
+.intro-photos__hiking {
+  display: none;
+  height: 300px;
+  width: 400px;
+}

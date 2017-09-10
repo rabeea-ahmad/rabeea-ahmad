@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="./style.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.14/angular.min.js"></script>
+  <script src="app.js"></script>
+  <meta charset="utf-8">
+  <title>Rabeea Ahmad</title>
+</head>
+<body ng-app="websiteApp">
+  <div class="intro-container" ng-controller="HomeController as home">
+    <div class="intro-photos column">
+      <img src="./assets/images/hiking1.jpg" class="intro-photos__hiking">
+    </div>
+    <div class="intro-labels column">
+      <p class="intro-prompt"> My name is Rabeea. I study Computer Engineering
+      @ the <a href="https://uwaterloo.ca/">University of Waterloo</a>.
+      </p>
+      <p class="intro-prompt"> I am passionate
+      about payments, cryptocurriences and <a href="https://github.com/rabeea-ahmad/titanic-ml">data science</a>.
+      </p>
+      <p class="intro-prompt"> I am an avid enjoyer of <a href="" ng-mouseover="home.display(home.category.hiking)"> hiking</a>, podcasts + video editing.
+      </p>
+    </div>
+    <div class="intro-photos column">
+      <img src="./assets/images/hiking1.jpg" class="intro-photos__hiking">
+    </div>
+  </div>
+</body>
+</html>
