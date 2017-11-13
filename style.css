@@ -1,34 +1,30 @@
 @font-face {
-  font-family: 'HN';
-  src: url('./assets/fonts/Moon Light.otf');
+  font-family: 'CR';
+  src: url('./assets/fonts/Cantarell-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'BR';
+  src: url('./assets/fonts/Barlow-Regular.ttf');
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: HN;
+  font-family: CR;
   font-weight: bold;
-  color: #263238;
 }
 
-a {
-  text-decoration: none;
-  color: #FF5252;
-  cursor: pointer;
+.container {
+  margin: 5%;
+  padding-top: 30px;
+  width: 95%;
+  height: 40em;
+  background-color: #9CC5A1;
+  color: #FDFDFD;
 }
 
-a:hover {
-  color: red;
-}
-
-.column {
-  float: left;
-  width: 27%;
-}
-.intro-prompt {
-  margin-bottom: 8%;
-}
-.intro-labels {
+.header {
   font-size: 30px;
   text-align: left;
   line-height: 40px;
@@ -37,16 +33,17 @@ a:hover {
   width: 43%;
 }
 
-.intro-photos {
-  font-size: 33px;
-  text-align: left;
-  line-height: 45px;
-  margin: 0 auto;
-  margin-top: 3.5em;
+.prompt {
+  margin-top: -3%;
+  color: black;
 }
 
-.intro-photos__hiking {
-  display: none;
-  height: 300px;
-  width: 400px;
+.list {
+  padding-left: 20px;
+}
+
+.subtitle {
+  font-size: 13px;
+  font-family: BR;
+  letter-spacing: 2px;
 }
