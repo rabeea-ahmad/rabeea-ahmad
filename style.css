@@ -1,55 +1,57 @@
 @font-face {
-  font-family: 'CR';
-  src: url('./assets/fonts/Cantarell-Regular.ttf');
+  font-family: 'H-bold';
+  src: url('./assets/fonts/HelveticaNeue-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'BR';
-  src: url('./assets/fonts/Barlow-Regular.ttf');
+  font-family: 'H-light';
+  src: url('./assets/fonts/HelveticaNeue-Light.ttf');
 }
 
-body {
+@font-face {
+  font-family: 'H-roman';
+  src: url('./assets/fonts/HelveticaNeue-Roman.ttf');
+}
+
+* {
   margin: 0;
-  padding: 0;
-  font-family: CR;
+  padding: 0px;
+}
+
+.container-fluid {
+  height: 100% !important;
+  background-image: url("./assets/images/map.png");
+  background-color: #F0F797;
+}
+
+.row {
+  height: 25%;
+}
+
+.box {
+  border: 1px solid #757575;
+  text-align: center;
+  height: 175px;
+  border-right: none;
+  border-top: none;
+}
+
+.name {
+  margin-top: 10%;
+  font-size: 50px;
   font-weight: bold;
-  overflow: hidden;
-}
-
-.container {
-  padding: 20px;
-  width: 100%;
-  height: 40em;
-  background-image: url('./assets/images/background.svg');
-  color: #FDFDFD;
-}
-
-.header {
-  font-size: 30px;
-  text-align: left;
-  line-height: 40px;
-  margin: 0 auto;
-  width: 43%;
-  background-color: #3F0D12;
-  padding-bottom: 30px;
-}
-
-.prompt {
-  padding-left: 50px;
-  margin-top: -3%;
-}
-
-.list {
-  padding-left: 80px;
-}
-
-.title {
-  padding: 50px;
 }
 
 .subtitle {
-  padding-left: 50px;
-  font-size: 13px;
-  font-family: BR;
   letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.contact {
+  margin-top: 3%;
+  font-size: 13px;
+}
+
+.prompt {
+  font-weight: bold;
 }
