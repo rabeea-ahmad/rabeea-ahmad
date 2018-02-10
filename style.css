@@ -13,45 +13,44 @@
   src: url('./assets/fonts/HelveticaNeue-Roman.ttf');
 }
 
+@font-face {
+  font-family: 'Anton';
+  src: url('./assets/fonts/Anton-Regular.ttf');
+}
+
 * {
-  margin: 0;
-  padding: 0px;
+  background-color: #FAFAF2;
 }
 
-.container-fluid {
-  height: 100% !important;
-  background-image: url("./assets/images/map.png");
-  background-color: #F0F797;
+
+.home-container {
+  width: 10em;
+  border: 2px solid green;
 }
 
-.row {
-  height: 25%;
+.title-container {
+  margin-top: 3%;
 }
 
-.box {
-  border: 1px solid #757575;
-  text-align: center;
-  height: 175px;
-  border-right: none;
-  border-top: none;
-}
-
-.name {
-  margin-top: 10%;
-  font-size: 50px;
-  font-weight: bold;
+.title {
+  margin-top: -30px;
+  font-size: 90px;
+  font-weight: 700;
+  color: #FAFAF2;
+  text-shadow:
+  -1px -1px 0 #FF69B4,
+  1px -1px 0 #FF69B4,
+  -1px 1px 0 #FF69B4,
+  1px 1px 0 #FF69B4;
 }
 
 .subtitle {
-  letter-spacing: 2px;
-  font-size: 13px;
+  text-align: right;
+  margin-top: 40%;
+  padding-right: 10%;
+  text-decoration: underline;
 }
 
-.contact {
-  margin-top: 3%;
-  font-size: 13px;
-}
-
-.prompt {
-  font-weight: bold;
+.nav {
+  font-style: italic;
 }
