@@ -1,62 +1,20 @@
-@font-face {
-  font-family: 'H-bold';
-  src: url('./assets/fonts/HelveticaNeue-Bold.ttf');
-}
-
-@font-face {
-  font-family: 'H-light';
-  src: url('./assets/fonts/HelveticaNeue-Light.ttf');
-}
-
-@font-face {
-  font-family: 'H-roman';
-  src: url('./assets/fonts/HelveticaNeue-Roman.ttf');
-}
-
-@font-face {
-  font-family: 'Anton';
-  src: url('./assets/fonts/Anton-Regular.ttf');
-}
-
 * {
   background-color: #FAFAF2;
 }
 
-
-.home-container {
-  width: 10em;
-  border: 2px solid green;
+.main-container {
+  margin-top: 5em;
+  text-align: center;
 }
 
-.title-container {
-  margin-top: 3%;
-}
-
-.title {
-  margin-top: -30px;
-  font-size: 90px;
-  font-weight: 700;
-  color: #FAFAF2;
-  text-shadow:
-  -1px -1px 0 #FF69B4,
-  1px -1px 0 #FF69B4,
-  -1px 1px 0 #FF69B4,
-  1px 1px 0 #FF69B4;
+.name {
+  width: 15em;
+  margin: 0 5em 0 5em;
 }
 
 .subtitle {
-  text-align: right;
-  margin-top: 40%;
-  padding-right: 10%;
-  text-decoration: underline;
-}
-
-.nav {
   font-style: italic;
-}
-
-.photo {
-  border: 2px solid red;
-  height: 100px;
-  width: 100px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
 }
