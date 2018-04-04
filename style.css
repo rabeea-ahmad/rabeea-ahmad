@@ -6,6 +6,7 @@
 .main-container {
   margin-top: 5em;
   text-align: center;
+  background-color: #FAFAF2;
 }
 
 .name {
@@ -39,7 +40,7 @@
 .rig-cell {
   display:block;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 /* If have the image layer */
@@ -74,16 +75,6 @@
   }
 }
 
-.troll-title {
-  font-size: 80px;
-  font-style: italic;
-  padding-bottom: 5%;
-}
-
-.troll {
-  width: 40%;
-}
-
 .nav {
   text-decoration: none;
 }
@@ -102,4 +93,30 @@ a:focus {
 }
 a:active {
   text-decoration: none;
+}
+
+#about {
+  padding-top: 18%;
+}
+
+.content-header {
+  font-style: italic;
+  padding-top: 14%;
+  padding-left: 10%
+}
+
+.para {
+  margin-top: 5%;
+  margin-left: 10%;
+  text-align: left;
+  width: 80%;
+}
+
+.playlist-container {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 5%;
+  margin: 0 auto;
+  padding-bottom: 5%;
 }

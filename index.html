@@ -12,16 +12,196 @@
   <link rel = "stylesheet" href = "style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
 </head>
-<body>
+<body ng-controller="HomeController as home">
   <div class = "main-container">
     <p class = "subtitle number"> 001 </p>
     <img class = "name" src ="./assets/images/name.png"/>
     <ul class = "subtitle">
-      <li> <a class = "nav" href="./assets/views/404.html"> tech things </a>  </li>
-      <li> <a class = "nav" href="./assets/views/photos.html"> photos </a> </li>
-      <li> <a class = "nav" href="./assets/views/404.html"> blog </a>  </li>
-      <li> <a class = "nav" href="./assets/views/404.html"> contact </a>  </li>
+      <li> <a class = "nav" href="#about"> about </a>  </li>
+      <!-- <li> <a class = "nav" href="#tech"> tech things </a>  (coming soon)</li> -->
+      <li> <a class = "nav" href="#photos"> photos </a> </li>
+      <li> <a class = "nav" href="#music"> music </a>  </li>
+      <!-- <li> <a class = "nav" href="#writing"> writing </a>  (coming soon)</li>
+      <li> <a class = "nav" href="#contact"> contact </a>  (coming soon)</li> -->
     </ul>
+  </div>
+
+  <div class = "content">
+    <h2 class = "content-header" id="about"> ABOUT ME </h2>
+    <p class="para"> I'm a third year <a href="https://uwaterloo.ca/electrical-computer-engineering/about-electrical-and-computer-engineering"> Computer Engineering </a>
+    student @ the University of Waterloo. I am versatile, high-spirited, vivacious and definitely a rational optimist. I am an incredibly curious person and love
+    learning about practically anything, and am constantly on the pursuit to stumble on things that vauge my interests. This is one reason why my 2018 goal was to read at least <a href ="https://github.com/rabeea-ahmad/books"> 10 books</a>. </p>
+
+    <p class = "para"> Software-wise I am the most intrigued by the Payments world (I'm currently interning at <a href="https://www.shopify.ca/"> Shopify </a> on the Payments team - I will be writing a blog post about that soon!), data analytics and data
+      infrastructure (such as ETL pipelines, databases, etc.) and more recently, compilers and operating systems. As you can probably tell, these are all vastly different - which comes to the point that I consider myself a generalist. (TODO: write a blog post about this too).
+      As someone who is just at the beginning on their career and as someone who has just gotten into software development recently, I'm am trying to spend the few upcoming years (still in school + doing internships) acting like a sponge and just absorbing as much about everything as possible. </p>
+    <br>
+  </div>
+  <div class = "content">
+    <h2 class = "content-header" id="photos"> PHOTOS </h2>
+    <p class = "para"> As someone who is very creative and loves media and technology, photography is the perfect intersection. I enjoy landscape photography and am hoping to
+      take a shot at astrophotography soon! I am still learning but here are some photos I have taken recently. I joined the Style Society at my university as a photographer which
+      was a cool way to get better at it. I also went to Alberta this past summer to visit Banff and Jasper National Parks so that provided for some unreal pictures and memories. </p>
+    <ul id="rig">
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/mr3.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/uwss2.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/uwss4.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/habitat67.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/uwss3.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/nk.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/nk2.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/uwss1.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/uwss5.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/uwss6.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/profile1.JPG">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/profile2.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/agnes.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/beehive.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/louise.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/trees.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/trees2.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/temple.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/banff.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/croix.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/nepean.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/photo.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/5roses.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/biosphere.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/biosphere2.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/mr.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/mr2.jpg">
+        </a>
+      </li>
+      <li>
+        <a class="rig-cell" href="#">
+          <img class="rig-img" src="./assets/images/water.jpg">
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class = "content">
+    <h2 class = "content-header" id="music"> MUSIC </h2>
+    <p class = "para"> I absolutley adore music - and all genres. My favourite artists include Frank Ocean (fun fact: I have listened to Blonde every day since it came out back in 2016), The Killers,
+      Lorde, Rainbow Kitten Surprise, Beach House and BROCKHAMPTON just to name a few. Check out more of my playlists on Spotify @ <a href = "https://open.spotify.com/user/227fbmsib6ehlmcglcbovf3uy?si=hyEQpFpORnmx9mCPYwcL0Q"> Rabeea Ahmad </a></p>
+    <div class = "playlist-container">
+      <p> season 1 </p>
+      <iframe src="https://open.spotify.com/embed/user/227fbmsib6ehlmcglcbovf3uy/playlist/0lIr3KYRp05NPEUDyY0AtG" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class = "playlist-container">
+      <p> season 2 </p>
+      <iframe src="https://open.spotify.com/embed/user/227fbmsib6ehlmcglcbovf3uy/playlist/2jgSmhVEoeKdfOcjeSRl6g" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    <div class = "playlist-container">
+      <p> all time fav songs </p>
+      <iframe src="https://open.spotify.com/embed/user/227fbmsib6ehlmcglcbovf3uy/playlist/4rS2z5hFzfqaG1FqxoD8Xc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
   </div>
 </body>
 </html>
