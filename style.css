@@ -1,20 +1,30 @@
 * {
-  background-color: #FAFAF2;
+  background-color: #fff;
   text-decoration: none;
 }
 
 .main-container {
   margin-top: 5em;
   text-align: center;
-  background-color: #FAFAF2;
+  background-color: #fff;
 }
 
 .name {
-  width: 15em;
-  margin: 0 5em 0 5em;
+  font-size: 80px;
+  color: #B71C1C;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #F50057;
+  font-style: italic;
+  font-weight: 900;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 13%;
+  text-align: center;
 }
 
 .subtitle {
+  padding: 3%;
   font-style: italic;
   list-style-type: none;
   display: inline-block;
