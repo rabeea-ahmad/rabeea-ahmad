@@ -1,153 +1,42 @@
 @font-face {
-    font-family: RB;
-    src: url('./assets/fonts/ReenieBeanie.ttf');
+  font-family: RB;
+  src: url('./assets/fonts/ReenieBeanie.ttf');
 }
 
 * {
-  background-color: #ffe082;
+  background-color: #EDF2F4;
   text-decoration: none;
 }
 
 .main-container {
   margin-top: 10em;
   text-align: center;
-  background-color: #fff;
 }
 
 .title {
   font-family: RB;
   font-size: 170px;
   font-weight: 1000;
-  color: #002f6c;
-  text-shadow: 7px 7px #fff;
-}
-
-
-
-
-/* * {
-  background-color: #fff;
-  text-decoration: none;
-}
-
-.name {
-  font-size: 80px;
-  color: #B71C1C;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  /* -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #F50057;
-  font-style: italic;
-  font-weight: 900;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 13%;
-  text-align: center;
+  color: #EF233C;
+  text-shadow: 7px 7px #2B2D42;
 }
 
 .subtitle {
-  padding: 3%;
+  font-size: 25px;
   font-style: italic;
   list-style-type: none;
   display: inline-block;
   text-align: left;
-  color: black;
   text-decoration: none !important;
-}
-
-#rig {
-  margin:0 auto; /*center aligned*/
-  /* padding: 10px;
-  font-size:0; /* Remember to change it back to normal font size if have captions */
-  /* list-style:none;
-}
-#rig li {
-  display: inline-block;
-  vertical-align:middle;
-  box-sizing:border-box;
-  padding:10px;
-} */
-
-/* The wrapper for each item */
-/* .rig-cell {
-  display:block;
-  position: relative;
-  overflow: hidden;
-} */
-
-/* If have the image layer */
-/* .rig-img {
-  display:block;
-  width: 100%;
-  height: auto;
-  border:none;
-  transform:scale(1);
-  transition:all 1s;
-} */
-/*
-#rig li:hover .rig-img {
-  transform:scale(1.05);
-}
-
-@media (max-width: 9000px) {
-  #rig li {
-    width:25%;
-  }
-}
-
-@media (max-width: 700px) {
-  #rig li {
-    width:33.33%;
-  }
-}
-
-@media (max-width: 550px) {
-  #rig li {
-    width:50%;
-  }
+  padding-top: 2%;
 }
 
 .nav {
   text-decoration: none;
+  color: black;
+  padding: 5%;
 }
 
 a {
   text-decoration: none !important;
 }
-a:visited {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
-}
-a:focus {
-  text-decoration: none;
-}
-a:active {
-  text-decoration: none;
-}
-
-#about {
-  padding-top: 18%;
-}
-
-.content-header {
-  font-style: italic;
-  padding-top: 14%;
-  padding-left: 10%
-}
-
-.para {
-  margin-top: 5%;
-  margin-left: 10%;
-  text-align: left;
-  width: 80%;
-}
-
-.playlist-container {
-  width: 33%;
-  display: inline-block;
-  text-align: center;
-  padding-top: 5%;
-  margin: 0 auto;
-  padding-bottom: 5%;
-} */
